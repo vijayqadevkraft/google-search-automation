@@ -1,0 +1,29 @@
+{
+  "name": "google-search-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation framework for Google Search functionality with Page Object Model pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:report": "playwright show-report",
+    "playwright:install": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "google-search",
+    "page-object-model",
+    "e2e-testing"
+  ],
+  "author": "Vijay Chuhan",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
